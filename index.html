@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asesoría y Dirección Técnica</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --primary:#0f172a;
+      --accent:#2563eb;
+      --card:#f8fafc;
+      --border:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    header{
+      background:linear-gradient(180deg,#0f172a 0%, #111827 100%);
+      color:#fff;
+      padding:48px 16px;
+      text-align:center;
+    }
+    header h1{margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.2rem)}
+    header p{margin:0;color:#e5e7eb}
+    .container{max-width:1100px;margin:0 auto;padding:32px 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{
+      overflow:hidden;
+
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:20px;
+    }
+    .card h2{margin-top:0;font-size:1.1rem}
+    
+
+    .badge{display:inline-block;background:#e0e7ff;color:#1e3a8a;padding:2px 8px;border-radius:999px;font-size:.75rem}
+    ul{padding-left:18px;margin:8px 0}
+    li{margin:6px 0}
+    .section{margin-bottom:28px}
+    .section h2{font-size:1.25rem;margin-bottom:10px}
+    .cta{
+      background:#0f172a;
+      color:#fff;
+      border-radius:16px;
+      padding:24px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:16px;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .cta a{
+      color:#0f172a;
+      background:#fff;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+    }
+    footer{border-top:1px solid var(--border);padding:16px;text-align:center;color:var(--muted)}
+    .small{color:var(--muted);font-size:.9rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Asesoría y Dirección Técnica en Instalaciones Eléctricas y Termomecánicas</h1>
+    <p>Más de 20 años de trayectoria garantizando eficiencia, seguridad y cumplimiento normativo.</p>
+  </header>
+
+  <main class="container">
+    <section class="section grid">
+      <div class="card">
+        <h2>⚡ Servicios eléctricos</h2>
+        
+        <span class="badge">Normativas: AEA · SRT · IEC</span>
+        <ul>
+          <li><strong>Proyectos:</strong> Planos ejecutivos, de interferencia, unifilares y topográficos. Memorias técnicas, diagramas unifilares, topográficos de tableros y cálculos (caída de tensión, cortocircuito y factor de potencia).</li>
+          <li><strong>Ensayos y Mediciones:</strong> Termografía infrarroja, mediciones cofimétricas, puesta a tierra (telurímetro), ensayo de disyuntores y megado de aislación.</li>
+          <li><strong>Tecnología:</strong> Modelado y proyección con AutoCAD, SketchUp y Open BIM.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🏢 Domótica y Edificios Inteligentes</h2>
+        
+        <span class="badge"> Integración de tecnologías de vanguardia para la gestión eficiente de inmuebles. BMS · KNX</span>
+        <ul>
+          <li><strong>Automatización:</strong> Integración de sistemas BMS y control bajo protocolo KNX.</li>
+          <li><strong>Luminotecnia:</strong> Diseño, cálculo y modelado 3D de iluminación interior y exterior. Control y mediciones de intensidad lumínica in situ.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>❄️ Termomecánica y Eficiencia Energética</h2>
+        
+        <span class="badge"> Normativa: ASTM · SMACNA · ASHRAE · LEED</span>
+        <ul>
+          <li><strong>Documentación:</strong> Planos ejecutivos, balance térmico de las cargas, esquemas de conexión.</li>
+          <li><strong>Sistemas Complejos:</strong> VRF, VAV, Chillers, Torres de Enfriamiento, Fan Coils y Calderas.</li>
+          <li><strong>Tratamiento de Aire:</strong> Ventilación mecánica y tratamiento del aire según normas nacionales e internacionales.</li>
+          <li><strong>Energía:</strong> Análisis y evaluación energética de edificios.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>☀️ Energías Renovables</h2>
+        
+        <ul>
+          <li><strong>Fotovoltaica:</strong> Proyectos On-Grid, Off-Grid e Híbridos. Modelado 3D.</li>
+          <li><strong>Térmica:</strong> Termotanques solares (Heat Pipe, Placa y Tubos de vacío). Modelado 3D.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>📋 Gestión Documental y Habilitaciones</h2>
+        
+        <p class="small">Trámites requeridos con profesional matriculado para confección, firma y presentación.</p>
+        <ul>
+          <li>Factibilidad de potencia eléctrica ante la distribuidora.</li>
+          <li>Presentación de planos eléctricos (municipio).</li>
+          <li>Permiso de utilización de potencia (municipio).</li>
+          <li>Gestión del medidor de obra.</li>
+          <li>Habilitación eléctrica (municipio).</li>
+          <li>Medidores definitivos.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>¿Por qué elegir mis servicios?</h2>
+        <p>Combino experiencia corporativa de alto nivel con atención personalizada para proyectos privados. Mi enfoque prioriza la funcionalidad, la optimización de costos mediante software de última generación y el cumplimiento estricto de las normas de seguridad.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 style="text-align:center;margin-bottom:12px">Tipos de trabajo</h2>
+      <div class="grid gallery" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:20px">
+        <img src="https://i.imgur.com/7Z3hOys.jpeg" alt="Instalación 1" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/ocXcrQ9.jpeg" alt="Instalación 2" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/1Rlxjux.jpeg" alt="Instalación 3" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/HpfIXCt.jpeg" alt="Instalación 4" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/6PN3nS5.jpeg" alt="Instalación 5" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/pOq2VsR.jpeg" alt="Instalación 6" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/BEIsHJW.jpeg" alt="Instalación 7" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/9NMAI4V.jpeg" alt="Instalación 8" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/Xl9BhGy.jpeg" alt="Instalación 9" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+        <img src="https://i.imgur.com/VUfs4ze.jpeg" alt="Instalación 10" style="width:100%;height:140px;object-fit:cover;border-radius:12px">
+      </div>
+      <div class="cta">
+        <div>
+          <h2 style="margin:0 0 6px">Contacto</h2>
+          <p style="margin:0">Tel: <strong>+54 11 7000 9594</strong> · Email: <strong>rvestudiotecnico@gmail.com</strong></p>
+        </div>
+        <div>
+          <a href="tel:+541170009594">Llamar</a>
+          <a href="mailto:rvestudiotecnico@gmail.com?subject=Consulta%20desde%20la%20web">Enviar correo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Asesoría y Dirección Técnica. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
